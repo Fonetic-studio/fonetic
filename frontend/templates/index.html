@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="/static/scripts/qr.js"></script>
+    <script src="/static/scripts/main.js"></script>
+    <!--<script src="/static/scripts/bluetooth.js"></script>-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/static/scripts/socketio.js"></script>
+
+    <link href="/static/css/styles.css" rel="stylesheet" />
+
+    <title>phonetic</title>
+</head>
+<body>
+    <div class="settings">
+	<!--<input type="button" value="Scan QR code" onclick="scanforQR()">-->
+	<input type="button" value="Select tram" onclick="switchvehicle()">
+        <span id="region"></span>
+        <span id="line"></span>
+        <span id="vehicle"></span>
+        
+    </div>
+    <div class="messages"></div>
+    <div class="qr" id="reader"></div>
+</body>
+</html>
