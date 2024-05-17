@@ -2,7 +2,7 @@
 
 ## Setting up the device
 Install the Raspberry Pi with Raspbian bookworm 64bit and user pi.  
-Login as pi, /home/pi is the location where alle files must be installed.
+Login as pi, /home/pi is the location where all files must be installed.
 
 ### Install packages
 ```
