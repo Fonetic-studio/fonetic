@@ -1,0 +1,22 @@
+Command line examples
+---------------------
+
+List playback devices:
+    aplay -L
+
+List record devices:
+    arecord -L
+
+Set mic gain:
+    amixer -D hw:Device set 'Mic' 12
+
+Record audio:
+    arecord -D hw:C320 -f S16_LE -c2 -twav -d 3 > test.wav
+
+Playback audio:
+    aplay -D hw:C320 test.wav
+    aplay -D hw:C320 -t raw -f S16_LE -c2 -r44100 test.raw
+
+Encoding:
+    ffmpeg -y -f s16le -sample_rate 44100 -channels 2 -i audio_2024-1-7_7\:27\:32.raw -f s16le -b:a 128k -acodec mp3 out.mp3
+

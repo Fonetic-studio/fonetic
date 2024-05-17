@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /home/pi/Fonetic
+
+while [ true ]
+do
+    python3 ./scanq.py
+done
