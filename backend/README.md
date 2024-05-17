@@ -9,25 +9,35 @@ sudo apt update
 sudo apt install git gcc alsa-devel libasound2 libasound2-devel libboost-all-dev
 
 ### Install WiringPi
+```
 git clone https://github.com/WiringPi/WiringPi
 cd WiringPi
 sudo ./build
+```
 
 ### Clone the fonetic repository
+```
 git clone xxxx
+```
 
 ### Create the listen binary
+```
 make
+```
 
 ### Install the fonetic services
+```
 sudo cp *.service /etc/systemd/system
 systemctl enable fonetic_startup 
 systemctl enable fonetic_listen
 systemctl enable fonetic_listen
 systemctl enable fonetic_scanq
+```
 
 ### Install environment variables in /etc/profile
+```
 cat profile >> /etc/profile
+```
 
 ### The following environment variables in /etc/profile need to be adjusted depending on requirements.
 Then reboot the device.
