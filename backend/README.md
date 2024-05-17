@@ -34,7 +34,6 @@ make
 sudo cp *.service /etc/systemd/system
 systemctl enable fonetic_startup 
 systemctl enable fonetic_listen
-systemctl enable fonetic_listen
 systemctl enable fonetic_scanq
 ```
 
