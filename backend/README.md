@@ -1,7 +1,7 @@
 # Fonetic Pi device
 
 ## Setting up the device
-Install the Raspberry Pi with Raspbian bookworm 64bit and user pi. 
+Install the Raspberry Pi with Raspbian bookworm 64bit and user pi.  
 Login as pi, /home/pi is the location where alle files must be installed.
 
 ### Install packages
