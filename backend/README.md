@@ -41,7 +41,7 @@ systemctl enable fonetic_scanq
 cat profile >> /etc/profile
 ```
 
-### The following environment variables in /etc/profile need to be adjusted depending on requirements.
+The following environment variables in /etc/profile need to be adjusted depending on requirements.  
 Then reboot the device.
 
 FONETIC_GAIN
