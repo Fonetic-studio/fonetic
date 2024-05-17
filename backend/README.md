@@ -17,11 +17,11 @@ cd WiringPi
 sudo ./build
 ```
 
-### Clone the fonetic repository
+### Clone the fonetic backend repository
 ```
 mkdir ~/Fonetic
 cd ~/Fonetic
-git clone xxxx
+git clone xxxx/backend
 ```
 
 ### Create the listen binary
