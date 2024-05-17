@@ -19,8 +19,8 @@ sudo ./build
 
 ### Clone the fonetic repository
 ```
-mkdir Fonetic
-cd Fonetic
+mkdir ~/Fonetic
+cd ~/Fonetic
 git clone xxxx
 ```
 
