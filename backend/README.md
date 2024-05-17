@@ -32,9 +32,9 @@ make
 ### Install the fonetic services
 ```
 sudo cp *.service /etc/systemd/system
-systemctl enable fonetic_startup 
-systemctl enable fonetic_listen
-systemctl enable fonetic_scanq
+sudo systemctl enable fonetic_startup 
+sudo systemctl enable fonetic_listen
+sudo systemctl enable fonetic_scanq
 ```
 
 ### Install environment variables in /etc/profile
