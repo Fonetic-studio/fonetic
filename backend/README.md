@@ -39,7 +39,7 @@ systemctl enable fonetic_scanq
 
 ### Install environment variables in /etc/profile
 ```
-cat profile >> /etc/profile
+sudo cat profile >> /etc/profile
 ```
 
 The following environment variables in /etc/profile need to be adjusted depending on requirements.  
