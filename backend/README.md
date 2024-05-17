@@ -44,23 +44,23 @@ cat profile >> /etc/profile
 The following environment variables in /etc/profile need to be adjusted depending on requirements.  
 Then reboot the device.
 
-FONETIC_GAIN
+FONETIC_GAIN  
 Set gain. The gain varies per device, amixer shows that.
 
-FONETIC_DEVICE
+FONETIC_DEVICE  
 Name of the input device. E.g. hw:Device
 Use arecord -L to list devices.
 
-FONETIC_CHANNELS
+FONETIC_CHANNELS  
 Number of channels, typically 2
 
-FONETIC_GATE
+FONETIC_GATE  
 Threshold sample value when the gate opens and spikes are counted. If a number of spikes are reached within the current buffer, recording starts.
 
-FONETIC_SPIKES
+FONETIC_SPIKES  
 The number of spikes needed to start recording
 
-FONETIC_BUFFER
+FONETIC_BUFFER  
 Buffer size, number of samples scanned for spikes.
 
 ## Fonetic services
