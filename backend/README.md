@@ -5,8 +5,10 @@ Install the Raspberry Pi with Raspbian bookworm 64bit and user pi.
 Login as pi, /home/pi is the location where alle files must be installed.
 
 ### Install packages
+```
 sudo apt update
 sudo apt install git gcc alsa-devel libasound2 libasound2-devel libboost-all-dev
+```
 
 ### Install WiringPi
 ```
