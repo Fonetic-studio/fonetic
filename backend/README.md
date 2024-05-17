@@ -49,7 +49,7 @@ FONETIC_GAIN
 Set gain. The gain varies per device, amixer shows that.
 
 FONETIC_DEVICE  
-Name of the input device. E.g. hw:Device
+Name of the input device. E.g. hw:Device.  
 Use arecord -L to list devices.
 
 FONETIC_CHANNELS  
