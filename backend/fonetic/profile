@@ -1,8 +1,0 @@
-export FONETIC_GAIN=150
-export FONETIC_DEVICE=hw:UC
-export FONETIC_CHANNELS=2
-export FONETIC_GATE=500
-export FONETIC_SPIKES=20
-export FONETIC_BUFFER=512
-
-alias setgain="amixer -D hw:UC set 'Mic'"
